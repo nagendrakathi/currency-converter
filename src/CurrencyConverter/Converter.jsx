@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import IMG from "../assets/background.jpeg";
-import { InputBox } from "../components/InputBox";
+import InputBox  from "../components/InputBox";
 import useCurrencyInfo from "../hooks/useCurrencyInfo";
 const Converter = () => {
   const [amount, setAmount] = useState();
